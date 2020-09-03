@@ -1,0 +1,19 @@
+{
+  "name": "bug-report-webpack-worker-devtool",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack --mode development"
+  },
+  "keywords": [],
+  "author": "Brian Mock (brian@wavebeem.com)",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0",
+    "webpack": "^4.44.1",
+    "worker-loader": "^3.0.2"
+  }
+}
